@@ -14,6 +14,7 @@ cd www.rossedlin.co.uk
 /usr/bin/php-5.6 composer.phar install
 
 #Envronment File
+cd ~
 cp public_html/.env www.rossedlin.co.uk/.env
 
 #Folders
