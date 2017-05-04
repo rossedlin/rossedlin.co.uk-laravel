@@ -10,7 +10,7 @@
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://github.com/Cryslo-PHP/cryslo_core"
+      "url": "https://github.com/CuttingWeb/cryslo_core"
     }
   ],
   "require": {
