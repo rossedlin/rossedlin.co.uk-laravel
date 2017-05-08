@@ -13,7 +13,7 @@ git clone https://github.com/rossedlin/www.rossedlin.co.uk
 chmod 774 -R ~/www.rossedlin.co.uk
 
 #Composer
-#cd www.rossedlin.co.uk
-#php composer.phar install
+cd www.rossedlin.co.uk
+php composer.phar install
 
 ~/www.rossedlin.co.uk/build/update/lightsail.sh
