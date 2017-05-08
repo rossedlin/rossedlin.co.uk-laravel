@@ -23,7 +23,7 @@
     "ext-gd": "*",
     "ext-curl": "*",
     "laravel/framework": "5.3.*",
-    "cryslo/cryslo_core": "1.8.*",
+    "cuttingweb/cryslo_core": "1.9.*",
     "stripe/stripe-php": "^3.23"
   },
   "require-dev": {
