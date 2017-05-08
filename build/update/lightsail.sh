@@ -1,14 +1,13 @@
 #!/usr/bin/env bash
 
-echo "hi"
+echo "Update -> www.rossedlin.co.uk -> Amazon Lightsail"
 
-#cd ~
-#mv public_html old_html
-#mv www.rossedlin.co.uk public_html
-#rm -R -f old_html
+#Folders
+cd ~
+rm -R -f www/www.rossedlin.co.uk/old_www
+mv www/www.rossedlin.co.uk/www www/www.rossedlin.co.uk/old_www
+mv www.rossedlin.co.uk www/www.rossedlin.co.uk/www
 
-#Symlink Install File
-#cd ~
-#rm install.sh
-#ln public_html/www_rossedlin/build/install.sh install.sh
-#chmod +x install.sh
+#Envronment File
+cd ~
+cp www/www.rossedlin.co.uk/old_www/.env www/www.rossedlin.co.uk/www/.env
