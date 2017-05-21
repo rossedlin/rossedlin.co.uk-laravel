@@ -16,4 +16,4 @@ chmod 774 -R ~/www.rossedlin.co.uk
 cd www.rossedlin.co.uk
 php composer.phar install
 
-~/www.rossedlin.co.uk/build/update/lightsail.sh
+#~/www.rossedlin.co.uk/build/update/bitnami.sh
